@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Review Copy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">
+        <img src="logo2.png" class="logo">
+    </a>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="poems.html">Poems</a></li>
+       
+    </ul>
+</nav>
+
+<section class="request-page">
+
+<h1>Request a Book</h1>
+
+<p>
+Substack subscribers can request a free digital copy of one of my completed manuscripts.
+Complete the form below and I'll get back to you as soon as I can.
+</p>
+
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+<label for="book">Which book are you interested in?</label>
+
+<select id="book" name="book" required>
+    <option value="">-- Select a book --</option>
+    <option value="Book 1">The Cloud Maker</option>
+    <option value="Book 2">The Skær</option>
+    <option value="Book 3">Better than Nothing</option>
+</select>
+
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+</body>
+</html>

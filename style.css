@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+body {
+    margin: 0;
+    color: #E8E3D3;
+    background:
+        radial-gradient(circle at 15% 15%, rgba(91,124,72,.18), transparent 35%),
+        radial-gradient(circle at 85% 70%, rgba(51,75,45,.15), transparent 40%),
+        linear-gradient(180deg, #1a2018 0%, #11150f 55%, #090b09 100%);
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 25px 25px;
+    background: #1a2018;
+}
+
+nav h2 {
+    flex: 1;
+    color: #60a5fa;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #b89b5e;
+}
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #b89b5e;
+
+    position: relative;
+    top: -60px;
+    z-index: 10;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero h3{
+    color:#B89B5E;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:600px;
+    line-height:1.6;
+    color:#cbd5e1;
+    margin-bottom:30px;
+}
+
+button{
+    background:#556b2f;
+    color:#e8e3d3;
+    border:none;
+    padding:15px 35px;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#7c9a4b;
+    transform:translateY(-3px);
+}
+section {
+    padding: 80px 10%;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+section p {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #1A241A;
+    border: 1px solid #3A4A33;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    background: #293548;
+}
+
+.card h3 {
+    color: #B89B5E;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #cbd5e1;
+}
+h1, h2, h3 {
+    font-family: "Cinzel", serif;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #d8d2bf;
+}
+.poems-page {
+    max-width: 850px;
+    margin: 120px auto;
+    padding: 20px;
+}
+
+.poems-page h1 {
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: .15em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #b8b39e;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+
+.poem-card {
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(184,155,94,.25);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+
+.poem-card:hover {
+    border-color: #b89b5e;
+    transform: translateY(-4px);
+}
+
+.poem-card h2 {
+    margin-top: 0;
+    letter-spacing: .08em;
+}
+
+.poem-card p {
+    color: #cfc8b4;
+}
+
+.poem-card a {
+    color: #b89b5e;
+    text-decoration: none;
+    letter-spacing: .08em;
+}
+.hero-button {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #556B2F;
+    color: #E8E3D3;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #B89B5E;
+}
+.request-page {
+    max-width: 700px;
+    margin: 120px auto;
+    padding: 20px;
+}
+
+.request-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.request-page p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #cfc8b4;
+}
+
+.request-page label {
+    display: block;
+    margin: 20px 0 8px;
+}
+
+.request-page input,
+.request-page textarea {
+    width: 100%;
+    padding: 14px;
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(184,155,94,.3);
+    color: #E8E3D3;
+    font-size: 1rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.request-page textarea {
+    resize: vertical;
+}
+
+.request-page button {
+    margin-top: 30px;
+    width: 100%;
+}
+.request-page select {
+    width: 100%;
+    padding: 14px;
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(184,155,94,.3);
+    color: #E8E3D3;
+    font-size: 1rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.request-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 18px 24px;
+
+    background: #667c33;
+    color: #E8E3D3;
+
+    border: 1px solid #b89b5e;
+    border-radius: 6px;
+
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.75);
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #1b2418;
+    border: 1px solid #b89b5e;
+    border-radius: 8px;
+    width: 85%;
+    max-width: 500px;
+    margin: 15vh auto;
+    padding: 30px;
+    color: #E8E3D3;
+}
+
+.close {
+    float: right;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #b89b5e;
+}
+
+.synopsis-btn {
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid #b89b5e;
+    color: #b89b5e;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.synopsis-btn:hover {
+    background: #b89b5e;
+    color: #111;
+}

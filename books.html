@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<a href="books.html">
+    <img src="logo2.png" alt="Home" class="logo">
+</a>
+    <ul>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="poems.html">Poetry</a></li>
+        <li><a href="About.html">About</a></li>
+    </ul>
+</nav>
+    
+<section id="projects">
+    <h2>Completed Works</h2>
+
+    <div class="projects">
+
+        <div class="card">
+          
+            <h3>The Cloud Maker</h3>
+            <p>Middle Grade Fantasy adventure novel</p>
+            <button class="synopsis-btn" onclick="openSynopsis('A red ship with white sails falls from the sky and little Riff sneaks aboard. But this is the cloud maker's vessel. And she is hunting the Wandering Mountain. The destinies of a young farmgirl, an ingenious engineer, and a monstrous living mountain are entangled in this gripping fantasy adventure.)">
+    Read more...
+</button>
+        </div>
+
+        <div class="card">
+            <h3>The Skær</h3>
+            <p>Dark Fantasy novel</p>
+            <button class="synopsis-btn" onclick="openSynopsis('Malo is an exceptional hunter and intends on reversing his family's fortunes in joining the prestigious Shrikewood Hunting Club. Through his masterful use of the Skær, which lets one perceive all proximate plant-life in the form of malleable white light, he earns an invitation, a chance to prove himself.
+He leaves his struggling family, promising to return with riches and celebrity. With a future.
+
+The club turns out to be a hive of secrecy and dark ritual. There, Malo and four other young “pretenders” show off their qualities before the most powerful man in the country, Caer Midir. 
+But Shrikewood is under threat. There are enemies on the inside.
+A pretender is shot. Malo is a suspect. Everyone is.
+His destiny ends up tied to gods he never believed in. Tied to the Skær and all those seeking to exploit it, control it.
+
+Allegiance divided between Shrikewood, his family, and a cult of religious nomads, Malo must decide who he really is; hunter or Lightseer. Whether he wants to fight for his home or for his own gain. For love, or for something bigger.
+')">
+    Read more...
+</button>
+        </div>
+        
+        <a href="request.html" class="request-button">Request an eBook</a>
+        
+<h2>Works in Progress</h2>
+        <div class="card">
+            <h3>The Riddles of Taol</h3>
+            <p>Epic Fantasy series</p>
+       <button class="synopsis-btn" onclick="openSynopsis('The Cloud Maker is a middle-grade fantasy adventure about a boy who discovers that clouds are living beings...')">
+    Read more...
+</button>
+</div>
+        <div class="card">
+          <h3>Better Than Nothing</h3>
+          <p>Literary Fiction</p>
+        <button class="synopsis-btn" onclick="openSynopsis('Mark, handicap, is in Lourdes, place of miracles. With his only friend, the druid.
+        When the Virgin Mary starts making apparitions in Mark's croissants, he starts to believe there may be more to life thsn whining and limping.
+        But actually the Mother of God turns out to be a scheming, vulgar shrew.)">
+    Read more...
+</button>
+</div>
+       <div class="card">
+          <h3>Formerly Fairyland</h3>
+          <p>Upmarket Fiction</p>
+       <button class="synopsis-btn" onclick="openSynopsis('Two friends in north County Limerick instigate a national revival of Country and Western music in Ireland. Big hats, line dancing, bootcut jeans, oxblood boots, love and style, community and charisma')">
+    Read more...
+</button>
+</div>
+        <a href="request.html" class="request-button">Request an eBook</a>
+
+    </div>
+</section>
+
+<section>
+  <p>© Finbarr Hanley 2026</p>
+  </section>
+<script src="script.js"></script>
+<div id="synopsisModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeSynopsis()">&times;</span>
+        <h2>Synopsis</h2>
+        <p id="synopsisText"></p>
+    </div>
+</div>
+</body>
+
+</html>
