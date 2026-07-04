@@ -343,3 +343,52 @@ h1, h2, h3 {
     background: #b89b5e;
     color: #111;
 }
+.socials{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    margin:24px 0 28px;
+}
+
+.socials a{
+    width:42px;
+    height:42px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid #b89b5e;
+    border-radius:50%;
+    color:#e8e3d3;
+    text-decoration:none;
+    font-size:1.1rem;
+    transition:.3s;
+}
+
+.socials a:hover{
+    background:#b89b5e;
+    color:#162114;
+    transform:translateY(-2px);
+}
+
+.hero-links{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    margin-top:10px;
+}
+
+.hero-small-btn{
+    padding:10px 24px;
+    border:1px solid #b89b5e;
+    color:#e8e3d3;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    border-radius:4px;
+    transition:.3s;
+}
+
+.hero-small-btn:hover{
+    background:#b89b5e;
+    color:#162114;
+}
