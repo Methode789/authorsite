@@ -1,5 +1,12 @@
-function openSynopsis(text) {
-    document.getElementById("synopsisText").textContent = text;
+function openSynopsis(arg) {
+
+    if (arg instanceof HTMLElement) {
+        const content = arg.parentElement.querySelector(".synopsis-content").innerHTML;
+        document.getElementById("synopsisText").innerHTML = content;
+    } else {
+        document.getElementById("synopsisText").textContent = arg;
+    }
+
     document.getElementById("synopsisModal").style.display = "block";
 }
 
