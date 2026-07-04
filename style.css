@@ -306,6 +306,17 @@ h1, h2, h3 {
     max-height: 80vh;
     overflow-y: auto;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.75);
+    z-index: 1000;
+
+    overflow-y: auto;
+}
+
 .close {
     float: right;
     font-size: 2rem;
