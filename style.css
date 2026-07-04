@@ -158,6 +158,11 @@ h1, h2, h3 {
     margin: 120px auto;
     padding: 20px;
 }
+.poems-page2 {
+    max-width: 850px;
+    margin: 10px auto;
+    padding: 20px;
+}
 
 .poems-page h1 {
     text-align: center;
