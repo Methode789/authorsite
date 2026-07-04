@@ -1,10 +1,11 @@
 function openSynopsis(arg) {
+    const synopsisText = document.getElementById("synopsisText");
 
-    if (arg instanceof HTMLElement) {
-        const content = arg.parentElement.querySelector(".synopsis-content").innerHTML;
-        document.getElementById("synopsisText").innerHTML = content;
+    if (typeof arg === "string") {
+        synopsisText.textContent = arg;
     } else {
-        document.getElementById("synopsisText").textContent = arg;
+        synopsisText.innerHTML =
+            arg.parentElement.querySelector(".synopsis-content").innerHTML;
     }
 
     document.getElementById("synopsisModal").style.display = "block";
