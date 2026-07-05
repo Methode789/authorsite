@@ -393,3 +393,25 @@ h1, h2, h3 {
     background:#b89b5e;
     color:#162114;
 }
+.story{
+    max-width:800px;
+    margin:80px auto;
+    padding:0 24px;
+    line-height:1.9;
+}
+
+.story h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.story .subtitle{
+    text-align:center;
+    opacity:.75;
+    margin-bottom:40px;
+}
+
+.story p{
+    margin-bottom:1.4em;
+    text-align:justify;
+}
