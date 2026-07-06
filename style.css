@@ -45,7 +45,7 @@ nav ul a{
 }
 
 nav ul a:hover,
-.nav-links a.active{
+nav ul a:active{
     color:#b89b5e;
 }
 
