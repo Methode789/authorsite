@@ -388,6 +388,7 @@ h1, h2, h3 {
 
 .hero-links{
     display:flex;
+    flex-direction: column;
     justify-content:center;
     gap:16px;
     margin-top:10px;
