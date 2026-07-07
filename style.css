@@ -502,3 +502,20 @@ h1, h2, h3 {
     background:#b89b5e;
     color:#162114;
 }
+.page-title{
+    text-align:center;
+    font-size:3rem;
+    letter-spacing:4px;
+    margin:50px 0 40px;
+    color:#ece6d5;
+}
+
+.projects{
+    max-width:850px;
+    margin:0 auto 80px;
+}
+
+.card{
+    margin-bottom:28px;
+    padding:30px;
+}
