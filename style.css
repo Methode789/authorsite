@@ -570,7 +570,7 @@ h1, h2, h3 {
 .back-btn{
     display:inline-block;
     margin:30px 0;
-    color:#b89b5e;
+    color:#b89b5e !important;
     text-decoration:none;
     font-weight:600;
     transition:.2s;
