@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Seven-Legged Spider and the Silver Dragon</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="index.html" class="back-btn">Home</a>
+<a href="shorts.html" class="back-btn">← Back to Short Stories</a>
+</nav>
+</header>
+
+<section class="story">
+
+<h1>The Secen-Legged Spider and the Silver Dragon</h1>
+
+<hr>
+
+<p>
+Work in progress.
+</p>
+
+
+  
+  <a href="shorts.html" class="back-btn">
+Back to Short Stories
+</a>
+
+</section>
+
+</body>
+</html>
