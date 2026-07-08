@@ -21,3 +21,14 @@ window.onclick = function(event) {
         closeSynopsis();
     }
 }
+function togglePoem(button) {
+    const content = button.parentElement.querySelector(".poem-content");
+
+    if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block";
+        button.textContent = "Hide poem";
+    } else {
+        content.style.display = "none";
+        button.textContent = "Read poem";
+    }
+}
