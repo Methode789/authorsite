@@ -161,6 +161,7 @@ section p {
 
 .card p {
     color: #cbd5e1;
+    text-align: left !important;
 }
 h1, h2, h3 {
     font-family: "Cinzel", serif;
