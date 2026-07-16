@@ -598,10 +598,10 @@ h1, h2, h3 {
 }
 
 .about-author img{
-    width:90px;
+    width:180px;
     height:auto;
     border-radius:24px;
-    
+    padding:10px;
     box-shadow:0 10px 25px rgba(0,0,0,.4);
 }
 
