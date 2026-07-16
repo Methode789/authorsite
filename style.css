@@ -589,3 +589,22 @@ h1, h2, h3 {
 .back-btn:hover{
     color:#d8bc7a;
 }
+.about-author{
+    display:flex;
+    align-items:flex-start;
+    gap:40px;
+    max-width:1000px;
+    margin:60px auto;
+}
+
+.about-author img{
+    width:280px;
+    height:auto;
+    border-radius:12px;
+    object-fit:cover;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.about-author div{
+    flex:1;
+}
